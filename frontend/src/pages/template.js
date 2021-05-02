@@ -48,7 +48,7 @@ export default class Template extends Component {
     render() {
         return (
             <div>
-                <h1>Upload an image of yourself to generate your portfolio</h1>
+                <h1 style={{color:'white'}}>Upload an image of yourself to generate your portfolio</h1>
                 <button onClick={this.saveTemplate}>Save</button>
                 <div>
                     <img crossOrigin='anonymous' id={'img'} src={this.state.picturePreview} alt=""/>
